@@ -1,3 +1,8 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none; }
+
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
@@ -10,3 +15,12 @@ body {
 .text {
   font-size: 2rem;
   line-height: 8vh; }
+
+.card {
+  display: flex; }
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 2rem; }
