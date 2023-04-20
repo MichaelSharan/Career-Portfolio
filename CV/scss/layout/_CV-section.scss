@@ -1,4 +1,11 @@
-.CV{
+.CV {
+    margin-top: $gap_value_vertical;
+    
     display: flex;
-
+    align-items: start;
+    gap: $gap_value_horizontal;
+    
+    .image {
+        max-height: 30vh;
+    }
 }

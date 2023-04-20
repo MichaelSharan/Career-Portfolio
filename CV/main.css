@@ -4,6 +4,10 @@
   border: none; }
 
 body {
+  display: flex;
+  justify-content: center; }
+
+body {
   font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
 .title {
@@ -17,10 +21,21 @@ body {
   line-height: 8vh; }
 
 .CV {
-  display: flex; }
+  margin-top: 4vh;
+  display: flex;
+  align-items: start;
+  gap: 3vw; }
+  .CV .image {
+    max-height: 30vh; }
 
 .card {
-  display: flex; }
+  display: flex;
+  align-items: center; }
+  .card .icon {
+    max-height: 4vh; }
+  .card .text {
+    line-height: 4vh;
+    font-size: 4vh; }
 
 .content {
   display: flex;
@@ -29,4 +44,7 @@ body {
   gap: 2rem; }
 
 .image {
+  object-fit: contain; }
+
+.icon {
   object-fit: contain; }

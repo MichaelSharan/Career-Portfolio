@@ -1,3 +1,13 @@
 .card{
     display: flex;
+    align-items: center;
+
+    .icon{
+        max-height: $gap_value_vertical;
+    }
+
+    .text{
+        line-height: $gap_value_vertical;
+        font-size: $gap_value_vertical;
+    }
 }
