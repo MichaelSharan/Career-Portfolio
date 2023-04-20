@@ -1,9 +1,10 @@
 .card{
     display: flex;
     align-items: center;
+    gap: $gap_value_horizontal / 3;
 
     .icon{
-        max-height: $gap_value_vertical;
+        max-height: $gap_value_vertical * 1.2;
     }
 
     .text{

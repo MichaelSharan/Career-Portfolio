@@ -30,9 +30,10 @@ body {
 
 .card {
   display: flex;
-  align-items: center; }
+  align-items: center;
+  gap: 1vw; }
   .card .icon {
-    max-height: 4vh; }
+    max-height: 4.8vh; }
   .card .text {
     line-height: 4vh;
     font-size: 4vh; }
