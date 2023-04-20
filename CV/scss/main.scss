@@ -1,5 +1,8 @@
-@import "base/reset.scss";
+@import "base/reset";
 @import "base/typography";
+
+@import "layout/CV-section";
 
 @import "components/card";
 @import "components/content";
+@import "components/pictures"
