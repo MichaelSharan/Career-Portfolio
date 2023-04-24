@@ -44,6 +44,17 @@ body {
   justify-content: space-around;
   gap: 2rem; }
 
+.card-content {
+  display: flex;
+  gap: 3vw;
+  flex-wrap: wrap; }
+  .card-content .card {
+    border: solid rgba(0, 0, 0, 0.1);
+    border-style: outset;
+    border-radius: 1em;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.02);
+    white-space: nowrap; }
+
 .image {
   object-fit: contain; }
 
