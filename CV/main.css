@@ -5,7 +5,9 @@
 
 body {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  flex-direction: column;
+  gap: 3vw; }
 
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif; }
@@ -19,6 +21,9 @@ body {
 .text {
   font-size: 2rem;
   line-height: 8vh; }
+
+.grey {
+  color: grey; }
 
 .CV {
   margin-top: 4vh;
