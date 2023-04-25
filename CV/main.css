@@ -25,14 +25,14 @@ body {
 .grey {
   color: grey; }
 
-.CV {
+.module {
   margin-top: 4vh;
   margin-left: 7.5vw;
   margin-right: 7.5vw;
   display: flex;
   align-items: start;
   gap: 3vw; }
-  .CV .image {
+  .module .image {
     max-height: 30vh; }
 
 .card {
@@ -50,6 +50,13 @@ body {
   flex-direction: column;
   justify-content: space-around;
   gap: 2rem; }
+
+#text-content .card {
+  gap: 3vw;
+  justify-content: space-between; }
+  #text-content .card .text {
+    width: 40rem;
+    line-height: 6vh; }
 
 .card-content {
   display: flex;
