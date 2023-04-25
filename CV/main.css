@@ -22,6 +22,8 @@ body {
 
 .CV {
   margin-top: 4vh;
+  margin-left: 7.5vw;
+  margin-right: 7.5vw;
   display: flex;
   align-items: start;
   gap: 3vw; }
@@ -46,14 +48,15 @@ body {
 
 .card-content {
   display: flex;
-  gap: 3vw;
+  gap: 1.5vw;
   flex-wrap: wrap; }
   .card-content .card {
     border: solid rgba(0, 0, 0, 0.1);
     border-style: outset;
     border-radius: 1em;
     box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.02);
-    white-space: nowrap; }
+    white-space: nowrap;
+    padding: 1rem; }
 
 .image {
   object-fit: contain; }

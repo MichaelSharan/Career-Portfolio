@@ -1,5 +1,7 @@
 .CV {
     margin-top: $gap_value_vertical;
+    margin-left: $gap_value_horizontal * 2.5;
+    margin-right: $gap_value_horizontal * 2.5;
     
     display: flex;
     align-items: start;
