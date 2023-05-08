@@ -9,10 +9,20 @@
     .card{
         gap: $gap_value_horizontal;
         justify-content: space-between;
+        
+        @media (max-width:800px) {
+            flex-direction: column;
+        }
 
         .text{
             width: 40rem;
             line-height: 6vh;
+            @media (max-width: 800px) {
+                width: 15rem;
+        }
+            @media (max-width: 1500px) {
+                width: 22rem;
+    }
         }
     }
 }

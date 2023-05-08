@@ -3,6 +3,10 @@
     gap: $gap_value_horizontal / 2;
     flex-wrap: wrap;
 
+    @media (max-width: 400px) {
+        flex-direction: column;
+    }
+
     .card{
         border: solid rgba($color: #000000, $alpha: 0.1);
         border-style: outset;
@@ -10,6 +14,11 @@
         box-shadow: 10px 5px 5px rgba($color: #000000, $alpha: 0.02);
         white-space: nowrap;
         padding: 1rem;
+
+        @media (max-width: 400px) {
+            padding: 0;
+            justify-content: center;
+        }
 
         &:hover {
             transform: scale(1.1);

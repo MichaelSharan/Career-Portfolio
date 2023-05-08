@@ -10,6 +10,16 @@
     .text{
         line-height: $gap_value_vertical;
         font-size: $gap_value_vertical;
+
+        @media (max-width: 400px) {
+            font-size:  $gap_value_vertical / 3.5;
+    }
+        @media (max-width: 800px) {
+            font-size:  $gap_value_vertical / 2.5;
+    }
+        @media (max-width: 1500px) {
+        font-size: $gap_value_vertical / 2;
+    }
     }
 }
 
