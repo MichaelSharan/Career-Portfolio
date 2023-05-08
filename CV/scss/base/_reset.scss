@@ -6,6 +6,7 @@
 }
 
 body{
+	margin: $gap_value_horizontal;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
