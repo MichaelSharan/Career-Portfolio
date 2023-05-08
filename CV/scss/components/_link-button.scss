@@ -2,7 +2,12 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     height: 100%;
     width: 100%;
     padding: $gap_value_vertical;
+
+    @media (max-width: 400px) {
+        padding: 0;
+    }
 }
