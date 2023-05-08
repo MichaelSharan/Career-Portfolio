@@ -1,0 +1,18 @@
+.module {
+    margin-top: $gap_value_vertical;
+    margin-left: $gap_value_horizontal * 2.5;
+    margin-right: $gap_value_horizontal * 2.5;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: $gap_value_horizontal * 1.5;
+    
+    .image {
+        max-height: 30vh;
+    }
+}
+
+#head-module{
+    flex-direction: row;
+}

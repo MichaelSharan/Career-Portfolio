@@ -1,0 +1,18 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+#text-content{
+    .card{
+        gap: $gap_value_horizontal;
+        justify-content: space-between;
+
+        .text{
+            width: 40rem;
+            line-height: 6vh;
+        }
+    }
+}
